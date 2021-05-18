@@ -8,7 +8,7 @@ document.getElementById("id"); // is not defined. Node nera document
 // isikeliam failu sistemos moduli
 const fs = require("fs");
 
-fs.writeFile("user.txt", "username=Bob", (err) => {
+fs.writeFile("user1.txt", "username=Bob", (err) => {
   if (err) {
     console.log("err", err);
   } else {
